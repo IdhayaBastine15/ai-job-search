@@ -8,32 +8,67 @@ Structure answers as: **Situation** (context), **Task** (your responsibility), *
 
 Keep answers to 1-2 minutes. Be specific. End with what you learned or would do differently.
 
-## Ready-Made STAR Examples
+## STAR Candidates (Complete Manually)
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+*Stubs generated from CV experience. Fill in the S/T/A/R details before using in interviews.*
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Treatment Module — End-to-End Ownership (Ownership / Complexity)
+**Source:** TRIAS Healthcare SaaS, Software Engineer — Full Stack
+**What happened:** Built the Treatment Module inside the EHR platform entirely end-to-end, from order entry through clinical documentation to discharge.
+**Why it matters:** Answers questions about owning complex features, working in regulated environments, and driving something to production independently.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+---
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Papua New Guinea Onsite Deployment (Adaptability / Initiative)
+**Source:** TRIAS Healthcare SaaS — 6-month onsite deployment
+**What happened:** Volunteered for / was selected for a 6-month deployment to Papua New Guinea to support a live production rollout of Trias 3.0 in a hospital.
+**Why it matters:** Answers questions about going beyond the job description, handling pressure, cross-cultural collaboration, and production debugging in the field.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+---
+
+### 3. React Native Mobile App Delivery (Delivery Under Constraints)
+**Source:** TRIAS Healthcare SaaS — Doctor and Patient apps
+**What happened:** Shipped two mobile apps (Doctor-facing and Patient-facing) in React Native with a Node.js/PostgreSQL backend supporting real-time teleconsultation.
+**Why it matters:** Answers questions about delivering a full feature across multiple platforms, API design, and real-time systems.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+---
+
+### 4. Micro-Frontend Architecture Ownership (Technical Design / Scale)
+**Source:** TRIAS Healthcare SaaS — frontend architecture
+**What happened:** Owned frontend development in a micro-frontend architecture, building independently deployable React and Angular modules that composed into the main platform.
+**Why it matters:** Answers questions about architectural decisions, technical trade-offs, and scaling frontend systems.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+---
+
+### 5. HealthSync / Irish Jobs Dashboard (Initiative / Independent Projects)
+**Source:** Independent projects
+**What happened:** Built production-grade personal projects (real-time FHIR/Kafka platform; full-stack job aggregation dashboard with AWS/Terraform) entirely outside employment.
+**Why it matters:** Answers "Tell me about a project you built from scratch" and "What do you work on outside work?" — signals genuine engineering interest and initiative.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
 ## Common Tough Questions
 

@@ -1,0 +1,60 @@
+{
+  "seen": {
+    "fenergo-senior-software-engineer-python": {
+      "title": "Senior Software Engineer (Python)",
+      "company": "Fenergo",
+      "url": "https://apply.workable.com/fenergocareers/j/93E39287A1",
+      "first_seen": "2026-06-06",
+      "fit": "high",
+      "status": "new"
+    },
+    "ey-agentic-ai-engineer-senior-consultant": {
+      "title": "AI & Data - Agentic AI Engineer - Senior Consultant",
+      "company": "EY",
+      "url": "https://careers.ey.com/ey/job/Dublin-2-AI-&-Data-Agentic-AI-Engineer-Senior-Consultant/1253993401/",
+      "first_seen": "2026-06-06",
+      "fit": "high",
+      "status": "new"
+    },
+    "workhuman-software-engineer-iii-devops": {
+      "title": "Software Engineer III (DevOps/Platform Engineering)",
+      "company": "Workhuman",
+      "url": "https://www.workhuman.com/company/careers/list/Software-Engineer-III_R3035/",
+      "first_seen": "2026-06-06",
+      "fit": "medium",
+      "status": "new"
+    },
+    "resourceful-python-developer-fastapi-fintech": {
+      "title": "Python Developer (FastAPI / FinTech Project)",
+      "company": "Resourceful Talent Group",
+      "url": "https://ie.indeed.com/viewjob?jk=dff29e7d92e1f5cd",
+      "first_seen": "2026-06-06",
+      "fit": "medium",
+      "status": "new"
+    },
+    "osborne-backend-engineer-nodejs": {
+      "title": "Backend Engineer - Node.JS",
+      "company": "Osborne Recruitment (client undisclosed)",
+      "url": "https://ie.indeed.com/q-node-js-developer-l-dublin,-county-dublin-jobs.html",
+      "first_seen": "2026-06-06",
+      "fit": "medium",
+      "status": "new"
+    },
+    "intercom-senior-fullstack-engineer-team-web": {
+      "title": "Senior Full Stack Engineer - Team Web",
+      "company": "Intercom (Fin AI)",
+      "url": "https://ie.indeed.com/viewjob?jk=e5585f79da258ac9",
+      "first_seen": "2026-06-06",
+      "fit": "low",
+      "status": "new"
+    },
+    "ey-ai-lab-fullstack-engineer-agentic-platform-manager": {
+      "title": "AI Lab: Full-Stack Engineer - Agentic AI Platform (Manager)",
+      "company": "EY",
+      "url": "https://careers.ey.com/ey/job/Dublin-2-AI-&-Data-AI-Lab-Full-Stack-Engineer-Agentic-AI-Platform-Manager/1274100501/",
+      "first_seen": "2026-06-06",
+      "fit": "low",
+      "status": "new"
+    }
+  }
+}

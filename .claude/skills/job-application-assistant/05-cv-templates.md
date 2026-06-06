@@ -106,11 +106,14 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Full Stack / Software Engineering roles:**
+> Full Stack Software Engineer with 3 years of production experience building EHR and LIS platforms at TRIAS, a healthcare SaaS company. Delivered across the full stack — React and Angular frontends, Node.js and FastAPI backends, PostgreSQL/MySQL/MongoDB databases, React Native mobile apps, and AWS/Docker/Kubernetes infrastructure. MSc Data Analytics (2:1, 2025), National College of Ireland. Seeking mid-to-senior Software Engineering roles in Dublin (€52k–€55k).
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Healthtech / EHR-specific roles:**
+> Full Stack Software Engineer with 3 years of production healthcare SaaS experience (FHIR R4, HL7, EHR/LIS platforms) at TRIAS. Built and owned the Treatment Module end-to-end, shipped React Native teleconsultation apps, and contributed to a hospital management platform deployed onsite in Papua New Guinea. MSc Data Analytics (2:1, NCI Dublin, 2025). Seeking mid-to-senior engineering roles in Dublin where healthcare domain depth and full-stack delivery translate directly to product impact.
+
+**For AI/LLM engineering or platform engineering roles:**
+> Full Stack Software Engineer specialising in cloud-native architectures (AWS, Kafka, Redis, Elasticsearch) and applied AI/LLM tooling. 3 years of production experience at TRIAS Healthcare SaaS; MSc Data Analytics (2:1, NCI Dublin, 2025). Independent projects include a real-time FHIR/Kafka healthcare data platform and a Claude API-powered job application tool built with MCP and Playwright. Seeking mid-to-senior engineering roles in Dublin where applied AI and distributed systems experience contribute to greenfield product development.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

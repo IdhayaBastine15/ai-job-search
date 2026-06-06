@@ -1,169 +1,140 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
-%%
-%% SETUP: Run /setup to populate this with your actual information.
-%% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
-
-\documentclass[11pt,a4paper,sans]{moderncv}
-\moderncvstyle{banking}
-\moderncvcolor{blue}
-
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
-\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
-
-\usepackage[utf8]{inputenc}
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=0.25in, bottom=0.25in, left=0.45in, right=0.45in]{geometry}
+\usepackage{mathptmx}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
 \usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
-    pdfpagemode=FullScreen,
-}
-\usepackage[scale=0.80]{geometry}
-\usepackage{import}
+\usepackage{parskip}
+\usepackage{microtype}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\hypersetup{colorlinks=true, urlcolor=black, linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\newcommand{\ressection}[1]{%
+  \vspace{4pt}%
+  {\large\textbf{#1}}\\[-5pt]%
+  \rule{\linewidth}{0.5pt}\par%
+  \vspace{2pt}%
+}
+
+\newcommand{\jobtitle}[2]{%
+  \vspace{3pt}%
+  \noindent\textbf{#1}\hfill\textit{#2}\par%
+}
+
+\newcommand{\companyline}[1]{%
+  \noindent\textit{#1}\par%
+  \vspace{1pt}%
+}
 
 \begin{document}
 
-\makecvtitle
+% ── HEADER ────────────────────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\textbf{Idhaya Bastine Kennedy}}\\[3pt]
+  Dublin, Ireland (D08)
+  \textbar{} +353 892 585 050
+  \textbar{} \href{mailto:idhayakennedy3@gmail.com}{idhayakennedy3@gmail.com}
+  \textbar{} \href{https://www.linkedin.com/in/idhaya-bastine-kennedy-79b15b186/}{LinkedIn}
+  \textbar{} \href{https://github.com/IdhayaBastine15}{github.com/IdhayaBastine15}\\[2pt]
+  \textit{Right to Work: Ireland (Stamp 1G) \textendash{} CSEP sponsorship required at renewal}
+\end{center}
 
-% ============================================================
-%     PROFILE STATEMENT
-% ============================================================
+\vspace{-4pt}
 
-\vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+% ── SUMMARY ───────────────────────────────────────────────────────────────────
+\ressection{Summary}
+Full Stack Software Engineer with 3 years of production experience building EHR and LIS platforms at TRIAS, a healthcare SaaS company. Delivered across the full stack -- React and Angular frontends, Node.js and FastAPI backends, PostgreSQL/MySQL/MongoDB databases, React Native mobile apps, and AWS/Docker/Kubernetes infrastructure. Contributed to Trias 3.0, a large-scale hospital management platform deployed onsite in Papua New Guinea. MSc Data Analytics (2:1, 2025), National College of Ireland. Seeking mid-to-senior Software Engineering roles in Dublin (\texteuro{}52k--\texteuro{}55k).
 
-% ============================================================
-%     CORE COMPETENCIES
-% ============================================================
+% ── EXPERIENCE ────────────────────────────────────────────────────────────────
+\ressection{Experience}
 
-\section{Core Competencies}
-\vspace{1pt}
-\begin{itemize}
-
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
-
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
-
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
-
+\jobtitle{Software Engineer -- Full Stack}{Mar 2021 -- Oct 2023}
+\companyline{TRIAS Healthcare SaaS, Bengaluru, India}
+\begin{itemize}[leftmargin=12pt, label=\textbullet, itemsep=1pt, topsep=0pt, parsep=0pt]
+  \item Built full-stack modules for Trias 3.0, a large-scale hospital management platform, covering React and Angular frontends, Node.js/Express APIs, and PostgreSQL and MongoDB data layers.
+  \item Delivered 100+ UI screens and contributed to a library of 600+ reusable components, improving consistency and reducing duplication across the frontend codebase.
+  \item Owned frontend development in a micro-frontend architecture, building independently deployable React and Angular modules that composed into the main platform.
+  \item Modelled MySQL and PostgreSQL schemas for the EHR module, covering patient health records, lab results, and clinical workflows with a focus on query performance and data integrity.
+  \item Developed the Treatment Module end-to-end within the EHR platform, handling the complete patient treatment workflow from order entry through to clinical documentation and discharge.
+  \item Shipped Doctor and Patient mobile apps in React Native with a Node.js/PostgreSQL backend, enabling real-time teleconsultation and appointment workflows.
+  \item Integrated the Vonage Video Call API into the EHR platform, adding in-app video teleconsultation for clinicians and patients.
+  \item Connected Bluetooth device integrations to interface with laboratory equipment, automating data capture and reducing manual entry errors in the LIS module.
+  \item Implemented Redis caching mechanisms to improve platform response times across high-traffic clinical workflows.
+  \item Participated in a 6-month onsite deployment in Papua New Guinea, gathering direct client feedback and shipping iterative fixes in a live production environment.
+  \item Configured AWS services (S3, EC2, RDS, Lambda) for storage and serverless workflows; containerised services with Docker and managed deployments on Kubernetes clusters.
+  \item Collaborated with cross-functional teams including Product, Design, and QA to align delivery with hospital operational workflows and medical compliance standards.
 \end{itemize}
 
-% ============================================================
-%     PROFESSIONAL EXPERIENCE
-% ============================================================
+\vspace{2pt}
 
-\section{Professional Experience}
-\vspace{3pt}
-\begin{itemize}
-
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-\end{itemize}}}
-
+\jobtitle{Software Engineer Intern}{Jun 2020 -- Mar 2021}
+\companyline{TRIAS Healthcare SaaS, Bengaluru, India}
+\begin{itemize}[leftmargin=12pt, label=\textbullet, itemsep=1pt, topsep=0pt, parsep=0pt]
+  \item Wrote React and TypeScript frontend components for the EHR platform, contributing to 50+ tested features with zero regressions.
+  \item Authored unit and integration tests, contributed bug fixes, and participated in code reviews across the frontend codebase.
 \end{itemize}
 
-% ============================================================
-%     EDUCATION
-% ============================================================
+% ── EDUCATION ─────────────────────────────────────────────────────────────────
+\ressection{Education}
 
-\section{Education}
-\vspace{1pt}
-\begin{itemize}
+\jobtitle{MSc Data Analytics -- 2:1}{2024 -- 2025}
+\companyline{National College of Ireland (NCI), Dublin, Ireland}
+\vspace{2pt}
+\jobtitle{B.E. Mechanical Engineering}{2016 -- 2020}
+\companyline{Loyola-ICAM College of Engineering and Technology (LICET), Chennai, India}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
+% ── SKILLS ────────────────────────────────────────────────────────────────────
+\ressection{Skills}
+\begin{tabularx}{\linewidth}{@{} >{\bfseries}p{1.55in} X @{}}
+  Languages     & Python, JavaScript (ES6+), TypeScript, SQL \\[1pt]
+  Frontend      & React, Angular, React Native, HTML5, CSS3 \\[1pt]
+  Backend       & FastAPI, Node.js, Express, NestJS, Flask, REST APIs, GraphQL \\[1pt]
+  Databases     & PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch \\[1pt]
+  Cloud         & AWS (EC2, S3, RDS, Lambda, ECR, ALB, SQS, OpenSearch) \\[1pt]
+  DevOps        & Docker, Kubernetes, Terraform, Jenkins, CI/CD, GitHub Actions \\[1pt]
+  Data \& AI    & Pandas, NumPy, Scikit-learn, GenAI/LLM tooling, Kafka, OpenAI API, Claude API \\[1pt]
+  Testing       & Jest, pytest, pytest-bdd, Selenium, TDD, BDD, Gherkin \\[1pt]
+  Standards     & FHIR R4, HL7, EHR/LIS domain, Agile/Scrum \\[1pt]
+\end{tabularx}
 
-\vspace{3pt}
+% ── PROJECTS ──────────────────────────────────────────────────────────────────
+\ressection{Projects}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
-
+\jobtitle{Irish Jobs Dashboard}{\href{https://github.com/IdhayaBastine15/Irish_job_dashboard}{github.com/IdhayaBastine15/Irish\_job\_dashboard}}
+\begin{itemize}[leftmargin=12pt, label=\textbullet, itemsep=1pt, topsep=0pt, parsep=0pt]
+  \item Full-stack job aggregation platform built with FastAPI, PostgreSQL, Elasticsearch, React, Railway, and Vercel; AWS infrastructure (ALB, ECR, RDS, OpenSearch) deployed via Terraform.
 \end{itemize}
 
-% ============================================================
-%     LANGUAGES
-% ============================================================
+\vspace{2pt}
 
-\section{Languages}
-\vspace{1pt}
-\begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\jobtitle{HealthSync -- Real-Time Healthcare Data Integration Platform}{\href{https://github.com/IdhayaBastine15}{github.com/IdhayaBastine15}}
+\begin{itemize}[leftmargin=12pt, label=\textbullet, itemsep=1pt, topsep=0pt, parsep=0pt]
+  \item Engineered a real-time healthcare data platform using Kafka, Redis, FastAPI, PostgreSQL, and FHIR R4, built to production-standard architecture with Terraform IaC.
 \end{itemize}
 
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
+\vspace{2pt}
 
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
+\jobtitle{Job Apply Bot}{\href{https://github.com/IdhayaBastine15/job_apply_bot}{github.com/IdhayaBastine15/job\_apply\_bot}}
+\begin{itemize}[leftmargin=12pt, label=\textbullet, itemsep=1pt, topsep=0pt, parsep=0pt]
+  \item Python-based automated job application tool using Claude API, LLM workflows, MCP, and Playwright.
 \end{itemize}
 
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
+\vspace{2pt}
 
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\jobtitle{Expense Fraud Detection}{\href{https://github.com/IdhayaBastine15/expense_fraud_detection}{github.com/IdhayaBastine15/expense\_fraud\_detection}}
+\begin{itemize}[leftmargin=12pt, label=\textbullet, itemsep=1pt, topsep=0pt, parsep=0pt]
+  \item Machine learning fraud detection system built with Python, Scikit-learn, FastAPI, and React.
 \end{itemize}
 
-% ============================================================
-%     REFERENCES
-% ============================================================
+\vspace{2pt}
 
-\section{References}
-\vspace{1pt}
-\begin{itemize}
-\item{Available upon request.}
+\jobtitle{GDPR Privacy API}{\href{https://github.com/IdhayaBastine15/gdpr-privacy-api}{github.com/IdhayaBastine15/gdpr-privacy-api}}
+\begin{itemize}[leftmargin=12pt, label=\textbullet, itemsep=1pt, topsep=0pt, parsep=0pt]
+  \item GDPR-compliant privacy API built with FastAPI, PostgreSQL, Docker, JWT, and OAuth2.
 \end{itemize}
 
 \end{document}

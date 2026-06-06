@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Idhaya Bastine Kennedy
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Idhaya Bastine Kennedy, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,69 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Idhaya Bastine Kennedy
+- **Location:** Dublin, Ireland (D08) (hybrid/remote preferred; CSEP Stamp 1G — sponsorship required at renewal)
+- **Languages:** English (fluent)
+- **Status:** Actively job searching
+- **LinkedIn headline:** "Full Stack Software Engineer | React · Node.js · Python · AWS | Healthcare & Regulated Environments | 3 Years Production Experience | Dublin (Stamp 1G)"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MSc Data Analytics** (2024–2025) — National College of Ireland (NCI), Dublin — 2:1
+- **B.E. Mechanical Engineering** (2016–2020) — Loyola-ICAM College of Engineering and Technology (LICET), Chennai, India
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Software Engineer — Full Stack** (Mar 2021–Oct 2023) — **TRIAS Healthcare SaaS** (Bengaluru, India)
+  - Built full-stack modules for Trias 3.0: React/Angular frontends, Node.js/FastAPI backends, PostgreSQL/MongoDB data layers
+  - Delivered 100+ UI screens and 600+ reusable components; owned micro-frontend architecture
+  - Developed Treatment Module end-to-end; shipped React Native Doctor/Patient mobile apps with Node.js/PostgreSQL backend
+  - Configured AWS (S3, EC2, RDS, Lambda), containerised with Docker, managed Kubernetes deployments
+  - Participated in 6-month onsite deployment in Papua New Guinea
+- **Software Engineer Intern** (Jun 2020–Mar 2021) — **TRIAS Healthcare SaaS** (Bengaluru, India)
+  - Wrote React/TypeScript frontend components; 50+ tested features with zero regressions
+  - Authored unit/integration tests and contributed bug fixes
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python, JavaScript/TypeScript, React, Angular, Node.js, FastAPI, PostgreSQL, AWS
+- **Secondary:** React Native, NestJS, Kafka, Kubernetes, Terraform, Elasticsearch, Redis, Docker
+- **Domain:** Healthcare SaaS (EHR/LIS), FHIR R4/HL7, GenAI/LLM tooling, Claude API
+- **Software:** GitHub Actions, Jenkins, Scikit-learn, NumPy, Pandas, Selenium, Jest, pytest
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+None.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Quality-driven** — values code review culture, CI/CD discipline, and well-architected systems
+- **End-to-end ownership** — takes features from requirements to production, not just isolated layers
+- **Strengths:** Full-stack delivery, cloud-native architecture, healthcare domain expertise, initiative
+- **Growth areas:** Moving into senior IC or tech lead roles; broadening applied ML/AI engineering
+- **Thrives in:** Small-to-mid teams, greenfield or platform engineering, roles with visible impact and clear progression
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building AI/LLM-powered full-stack products with real-world impact (healthtech or fintech)
+- Cloud-native architectures (Kafka, Redis, AWS) and platform engineering
+- Greenfield projects at companies that take engineering quality seriously
+- Growing from mid to senior level with clear progression in a visible-impact team
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Healthtech: Oneview Healthcare and similar EHR/LIS companies
+- Fintech: Mastercard, Fidelity Investments, State Street, Elavon, Fenergo, Equifax
+- Enterprise SaaS: Workday, Salesforce, MongoDB, Intercom, Workhuman
+- Irish tech: Tines, Phorest, Clio, Cadence, NBI
+- Big tech Dublin: Amazon, CrowdStrike, Arista
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Below €52,000 salary
+- Core language is Java, C#, .NET, or Go
+- Employer cannot support CSEP sponsorship at visa renewal
+- Pure manual QA or no development component
+- Industrial/non-tech sectors (SCADA, PLC, manufacturing software)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

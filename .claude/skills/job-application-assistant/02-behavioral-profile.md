@@ -1,50 +1,56 @@
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+*[No formal assessment (PI/DISC/Myers-Briggs) has been provided yet. Profile below is inferred from CV, project history, and stated preferences — update this file when you share your assessment results.]*
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Idhaya is a **quality-driven systems builder** — most energised when shipping complex, well-architected products in small collaborative teams where engineering standards are taken seriously. Prefers visible individual impact over organisational anonymity; favours greenfield and platform engineering over pure maintenance work.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Autonomy | High | Performs well with end-to-end ownership of features; does not need constant direction |
+| Quality orientation | High | Strong preference for code review culture, CI/CD, and architectural rigour |
+| Collaboration | Moderate-High | Works well cross-functionally (Product, Design, QA) but prefers small, tight teams |
+| Risk appetite | Moderate | Comfortable with greenfield complexity; not drawn to pure research/experimental roles |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **End-to-end ownership:** Repeatedly took features from requirements to production (Treatment Module, React Native apps, Bluetooth integrations) rather than working in isolated layers.
+- **Initiative beyond the job spec:** Built complex independent projects (HealthSync with Kafka/FHIR, Job Apply Bot with Claude API and MCP) that mirror production-grade architecture — not tutorials.
+- **Adaptability under pressure:** Accepted a 6-month onsite deployment in Papua New Guinea in a live production environment — strong signal of composure under pressure and willingness to operate outside the comfort zone.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Small-to-mid teams (under ~50 engineers) where individual contributions are visible
+- Greenfield products or platform/infrastructure work — not legacy maintenance
+- Engineering quality culture: code review, CI/CD, documented architecture
+- Clear progression path from mid to senior level
+- Hybrid or remote-first — Dublin-based, not tied to 5-day in-office
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Formal technical leadership:** Has led features and modules end-to-end but has not yet managed engineers. Frame as: "Ready to step into a senior IC or tech lead role with defined architectural ownership."
+- **ML/AI depth:** Strong at integrating LLM tooling (Claude API, OpenAI API) but not a research ML engineer. Frame as: "Applied AI engineering — shipping production AI features, not academic research."
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "end-to-end ownership", "full ownership of features", "own the product"
+- "high engineering standards", "code review culture", "clean architecture"
+- "greenfield", "build from scratch", "platform engineering"
+- "cross-functional collaboration", "product-minded engineer"
+- "healthcare", "regulated environments", "compliance-aware"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "large enterprise org", "matrix structure", "process-heavy environment"
+- "primarily maintenance and support"
+- "research engineer", "ML scientist" (applied LLM tooling is fine; pure research is not)
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Prefers a manager who sets clear goals and steps back — not micromanagement
+- Values technical mentorship and architectural input from senior/staff engineers
+- Does not thrive under excessive bureaucracy or slow approval chains
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Highlight end-to-end ownership, engineering quality standards, and greenfield/impact appetite
+- **CV:** Lead with ownership of complex modules; quantify where possible (100+ screens, 600+ components, 6-month Papua New Guinea deployment)
+- **Interviews:** Use PNG deployment for adaptability/initiative questions; Treatment Module for ownership/complexity questions; independent projects for passion/initiative questions
+- **Don't overstate:** Do not claim team leadership experience; do not position for pure ML/data science unless the role explicitly wants applied LLM tooling
